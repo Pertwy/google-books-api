@@ -7,7 +7,7 @@ function App() {
 
   const [book, setBook] = useState("")
   const [result, setResult] = useState([])
-  const [apiKey, setapiKey] = useState("AIzaSyDz2I7ZkOYGa4ZAkMrVE_aT7HBpapeuIII")
+  const [apiKey, setapiKey] = useState("")
 
   function handleSubmit(e){
     e.preventDefault()
